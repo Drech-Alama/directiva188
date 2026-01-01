@@ -2,12 +2,12 @@ import React from "react";
 import SlideCard from "../components/slider/SlideCard";
 const Home = () => {
   return (
-    <div className="min-h-screen grid grid-rows-[auto_1fr_auto] gap-5">
+    <div className="min-h-screen grid grid-rows-[auto_1fr_auto] gap-3">
       <header className="text-xl font-bold text-center p-4 shadow-md bg-gray-100 border border-gray-100 w-full">
         DIRECTIVA 188
       </header>
       <main className="overflow-hidden">
-        <div className="mx-auto w-full max-w-3xl p-3 sm:p-4 m-4 sm:mb-5 border-l-4 border-blue-600 bg-blue-50 text-blue-800 rounded shadow-sm text-center">
+        <div className="mx-auto w-full max-w-3xl p-3 sm:p-4 m-2 sm:mb-5 border-l-4 border-blue-600 bg-blue-50 text-blue-800 rounded shadow-sm text-center">
           <strong className="block mb-1 uppercase tracking-wide text-sm sm:text-base">
             Nota importante
           </strong>
