@@ -5,13 +5,13 @@ const Home = () => {
   return (
     <div className="min-h-screen grid grid-rows-[auto_1fr_auto] gap-3">
       <header className="w-full bg-gray-100 border border-gray-100 shadow-md">
-        <div className="flex items-center justify-center gap-3 p-4">
+        <div className="flex items-center justify-center gap-3 p-2">
           <img
             src="/logoDirectiva188.png"
             alt="Logo Directiva 188"
             className="h-10 w-auto object-contain"
           />
-          <h1 className="text-xl font-bold text-center">DIRECTIVA 188</h1>
+          <h2 className="text-xl font-bold text-center">DIRECTIVA 188</h2>
         </div>
       </header>
       <main className="overflow-hidden">
