@@ -45,7 +45,7 @@ const AlumnradoPublico = () => {
             </h3>
 
             <div className="shadow-md flex-1 grid grid-rows-2 gap-2 bg-fuchsia-200 rounded p-2">
-              <div className="flex flex-col items-center justify-between p-2">
+              <div className="flex flex-col items-center justify-center p-2">
                 <p className="pb-2">Observaciones internas</p>
                 <div className="w-full h-24 shadow bg-white rounded-md flex items-center justify-center overflow-hidden">
                   <img
@@ -56,7 +56,7 @@ const AlumnradoPublico = () => {
                 </div>
               </div>
 
-              <div className="flex flex-col items-center justify-between p-2">
+              <div className="flex flex-col items-center justify-center p-2">
                 <p className="pb-2">Descripción</p>
                 <div className="w-full h-24 shadow bg-white rounded-md flex items-center justify-center overflow-hidden">
                   <img

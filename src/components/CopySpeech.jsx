@@ -20,7 +20,7 @@ const CopySpeech = ({ text, copyable = true }) => {
   return (
     <div className="bg-white rounded-md shadow flex flex-col lg:flex-row overflow-hidden">
       {/* Texto */}
-      <p className="flex-1 p-5 flex items-center justify-center text-center">
+      <p className="flex-1 p-3 flex items-center justify-center text-center text-sm">
         {text}
       </p>
 
