@@ -14,7 +14,7 @@ const Home = () => {
           <h2 className="text-xl font-bold text-center">DIRECTIVA 188</h2>
         </div>
       </header>
-      <main className="overflow-hidden">
+      <main className="overflow-hidden px-5">
         <div className="mx-auto w-full max-w-3xl p-3 sm:p-4 m-2 sm:mb-5 border-l-4 border-blue-600 bg-blue-50 text-blue-800 rounded shadow-sm text-center">
           <strong className="block mb-1 uppercase tracking-wide text-sm sm:text-base">
             Nota importante

@@ -22,7 +22,7 @@ const SlideCard = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col mx-auto max-w-[1700px]">
       {/* ===== BOTONES ===== */}
       <div className="flex flex-wrap justify-center gap-4 m-4">
         {cards.map((card, index) => (
